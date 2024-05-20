@@ -1,11 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <title>Nuka World</title>
 </head>
 <body>
-    
+    <header>
+        <div class="container">
+            <h1 >
+                <img class="logo" src="./images/nuka-cola-seeklogo.svg" alt="Nuka Cola Logo">
+            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about"> Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#Nukaworld"> NukaWorld</a>
+                    </li>
+                    <li>
+                        <a href="#contact"> Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="about">
+        <div class="container">
+            <img class="store-front" src="./images/nuka.jpg" alt="VaultBoy - NukaCola">
+            <div>
+                <h2>Nuka Cola</h2>
+                <p>
+                    Descubra a Revolução no Sabor!
+                    ukaCola não é apenas uma bebida, é uma experiência que transcende o tempo e espaço. Criada com a mais
+                    alta tecnologia e ingredientes exclusivos, NukaCola é a escolha perfeita para aqueles que desejam saborear o futuro!
+                </p>
+                <p>
+                    Junte-se à Nova Geração de Fãs!
+                    A NukaCola é mais que uma bebida, é um estilo de vida! Não perca a chance de ser parte desse movimento incrível que está conquistando o mundo. 
+                    Seja para relaxar, recarregar as energias ou simplesmente aproveitar um momento especial, NukaCola é a escolha ideal.
+                </p>
+            </div>
+        </div>    
+    </section>
+    <section id="Nukaworld">
+        <div class="container">
+            <img class="store-front" src="./images/nukaworld.jpg" alt="Nuka World">
+            <div>
+                <h2>Nuka World</h2>
+                <p>
+                    Nuka World é um destino vibrav nte e emocionante, repleto de atrações para todas as idades e gostos. Este parque temático, inspirado na popular bebida Nuka-Cola, 
+                    oferece uma variedade de experiências imersivas e únicas. Desde montanhas-russas eletrizantes e 
+                    shows ao vivo, até áreas temáticas como Kiddie Kingdom, Galactic Zone, Safari Adventure e Dry Rock Gulch, 
+                    cada canto do Nuka World é projetado para encantar e entreter. A atenção aos detalhes em cada área temática transporta os visitantes 
+                    para mundos fantásticos, onde a diversão e a aventura nunca terminam.
+                </p>
+                <p>
+                    Além das atrações, Nuka World também é famoso por sua gastronomia diversificada e lojas exclusivas, onde os visitantes podem 
+                    saborear delícias inspiradas na Nuka-Cola e adquirir produtos únicos como souvenirs e roupas temáticas. A atmosfera vibrante e a 
+                    hospitalidade calorosa do parque tornam cada visita uma experiência inesquecível. 
+                    Seja para uma família em busca de diversão ou para aventureiros em busca de novas emoções, Nuka World se 
+                    destaca como um dos destinos mais encantadores e memoráveis para se explorar.
+                </p>
+            </div>
+        </div>    
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <div class="contact-methods">
+                <div>
+                    <h3>Fale conosco</h3>
+                    <form>
+                        <input type="text" placeholder="Seu Nome" required/>
+                        <input type="email" placeholder="Seu E-mail"required />
+                        <input type="tel" placeholder="Seu telefone (opcional)" />
+                        <textarea placeholder="Sua mensagem" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <h3>Nos acompanhe</h3>
+                    <ul class="social-links">
+                        <li>
+                            <a href="#" title="Siga-nos no instagram"></a>
+                                <img src="./images/instagram.svg" alt="Logo do Instagram"/>
+                        </li>
+                        <li>
+                            <a href="#" title="Visite nosso Canalk"></a>
+                                <img src="./images/youtube.svg" alt="Logo do Youtube"/>
+                        </li>
+
+                    </ul>
+                </div>
+                <div>
+                    <h3>Venha até nós</h3>
+                        <p>
+                            Fica em Massachusetts, a oeste de Boston.
+                        </p>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
